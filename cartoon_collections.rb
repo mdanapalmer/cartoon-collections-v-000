@@ -9,3 +9,7 @@ end
 def long_planeteer_calls(calls_long)
   calls_long.any? { |long| long.length > 4 }
 end
+
+def find_the_cheese(cheddar_cheese)
+  cheddar_cheese.find? { |cheese| == "cheddar"}
+end
