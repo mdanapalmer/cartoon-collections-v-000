@@ -4,5 +4,4 @@ end
 
 def summon_captain_planet(array)
   array.map.split(" ") {|element| puts element.capitalize}.join(" ")
-  end
 end
