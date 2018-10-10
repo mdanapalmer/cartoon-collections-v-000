@@ -2,6 +2,6 @@ def roll_call_dwarves(dwarves)
   dwarves.each.with_index(1) {|name, i| print "#{i}. #{name}"}
 end
 
-def summon_captain_planet(summon)
-  summon.collect {|element| puts element.capitalize + "!"}
+def summon_captain_planet(planeteer_calls)
+  planeteer_calls.collect {|element| puts element.capitalize + "!"}
 end
